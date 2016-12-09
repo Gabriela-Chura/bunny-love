@@ -18,6 +18,10 @@ header {
     margin: 0;
 }
 
+.menu {
+  z-index: 1;
+    position: fixed;
+}
 
 nav li a{
 	display: block;
@@ -74,7 +78,9 @@ nav li a:hover, nav li a:focus, nav li a:active{
 }
 /*------------------------HERO SECTION-----------------------------*/
 
-
+.sectionh{
+    padding-top: 90px;
+}
 
 .hero .contenedor {
     background: url(../img/img-1.jpg) no-repeat;
@@ -111,8 +117,162 @@ nav li a:hover, nav li a:focus, nav li a:active{
 
 
 
+.whitef {
+    background-color: white;
+    padding: 20px 0;
+}
 
+.box{
+    background-color: #1782a2;
+}
 
+.box h2{
+     font-family: 'Baloo Paaji', sans-serif;
+    color: salmon;
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.box p{
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 2;
+}
+
+/*----------------------CONTENIDOS----------------------------*/
+
+.blueh {
+    background-color: #1782a2;
+}
+
+.amenidades{
+    margin-top: 20px;
+    background-color: #dde8ed;
+    padding-bottom: 20px;
+    }
+
+.amenidades h5 {
+    color: salmon;
+    font-family: 'Baloo Paaji', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.amenidades p {
+    color: black;
+     font-family: 'Prompt', sans-serif;
+    margin: 20px;
+    line-height: 2;
+    
+}
+
+.reseña {
+    background-color: #dde8ed;
+}
+.reseña p {
+    color: black;
+     font-family: 'Prompt', sans-serif;
+    margin: 20px;
+    line-height: 2;
+}
+
+/*----------------------CONTENIDOTRESS----------------------------*/
+
+.ocultar {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.searching 
+{
+    margin: 10px 0;
+    padding: 30px 10px;
+    background-color: #dde8ed;
+    border-radius: 5px;
+}
+
+.searching input {
+    border: none; 
+    width: 100%;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #eaf8ff;
+}
+
+.sociales {
+   background-color: #dde8ed;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.sociales h5 {
+    color: salmon;
+    font-family: 'Baloo Paaji', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.sociales p {
+    color: black;
+     font-family: 'Prompt', sans-serif;
+    margin: 20px;
+    line-height: 2;
+    
+}
+
+.sociales ul {
+    list-style: none;
+    text-align: center;
+    }
+.sociales li {
+    display: inline-block;
+}
+
+.sociales i {
+    background-color: white;
+    padding: 10px;
+    border-radius: 200px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.socialesdos{
+    background-color: #dde8ed;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.socialesdos h5 {
+    color: salmon;
+    font-family: 'Baloo Paaji', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.socialesdos p {
+    color: black;
+     font-family: 'Prompt', sans-serif;
+    margin: 20px;
+    line-height: 2;
+    
+}
+
+/*----------------------CONEJOS---------------------------*/
+
+.conejitos {
+    background-image: url(../img/bunny-head.png);
+    background-size: contain;
+    height: 100px;
+}
+
+footer{
+    border-top: 2px solid salmon;
+   background-color: #1782a2; 
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
 
 
 
